@@ -39,9 +39,9 @@ REST_FRAMEWORK = {
 EMAIL_USE_TLS       = True
 EMAIL_HOST          = 'smtp.gmail.com'
 EMAIL_PORT          = 587
-EMAIL_HOST_USER     = 'projetoemile@gmail.com'
-EMAIL_HOST_PASSWORD = 'wddykkzsmadzwpot'
-DEFAULT_FROM_EMAIL  = 'projetoemile@gmail.com'
+EMAIL_HOST_USER     = ''
+EMAIL_HOST_PASSWORD = ''
+DEFAULT_FROM_EMAIL  = ''
 EMAIL_BACKEND       = 'django.core.mail.backends.smtp.EmailBackend'
 
 
@@ -99,23 +99,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'emileweb$default',
-#         # 'NAME': 'manoelnetom$UGETDB',
-#         'USER': 'emileweb',
-#         # 'USER': 'manoelnetom',
-#         'PASSWORD': '1q2w3e4r5t',
-#         # 'PASSWORD': 'u5P5y7U3',
-#         'HOST': 'emileweb.mysql.pythonanywhere-services.com',
-#         # 'HOST': 'manoelnetom.mysql.pythonanywhere-services.com',
-#         #'HOST': 'localhost',
-#         'PORT': '',
-#     }
-# }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
