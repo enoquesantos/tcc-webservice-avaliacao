@@ -1,0 +1,19 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{% static '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css' %}">
+<head>
+    <meta charset=" UTF-8>">
+<title>Reenvio de Senha</title>
+</head>
+<body>
+<div class="panel">
+
+    <div>
+        <p>A sua senha é {{ senha }}</p>
+        <footer>Você está recebendo este email porque solicitou o reenvio da senha no nosso aplicativo</footer>
+    </div>
+</div>
+</body>
+</html>

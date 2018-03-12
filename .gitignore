@@ -1,0 +1,10 @@
+*.pyc
+__pycache__
+myenv
+media
+.DS_Store
+.idea
+emile/web/migrations/
+.arcconfig
+db.sqlite3
+emiledata

@@ -1,0 +1,52 @@
+{
+	"address": null,
+	"birth_date": null,
+	"email": "enoquejoseneas@gmail.com",
+	"enrollment": "2012116025",
+	"gender": null,
+	"id": 1548,
+	"image_path": null,
+	"image_url": "qrc:/default_user_image.svg",
+	"name": "ENOQUE JOSENEAS JESUS DOS SANTOS",
+	"permission": {
+		"description": "student",
+		"id": 4,
+		"messagedestinations": [],
+		"name": "student"
+	},
+	"program": {
+		"abbreviation": "ADS",
+		"coordinator": {
+			"siape": "1625546",
+			"user": {
+				"address": null,
+				"birth_date": null,
+				"email": "renato@ifba.edu.br",
+				"gender": null,
+				"id": 172,
+				"image_path": null,
+				"name": "RENATO LIMA NOVAIS",
+				"permission": {
+					"description": "teacher",
+					"id": 6,
+					"messagedestinations": [{
+						"id": 3,
+						"name": "Todos os Meus Alunos",
+						"url_service": "sendMessagesToStudentsOfATeacher"
+					}, {
+						"id": 4,
+						"name": "Todos os Alunos de uma Turma",
+						"url_service": "sendMessageToStudentsOfACourseSection"
+					}]
+				},
+				"push_notification_token": null
+			}
+		},
+		"id": "116",
+		"institution": 2,
+		"name": "ANALISE E DESENVOLVIMENTO DE SISTEMAS",
+		"total_credits": null,
+		"total_hours": null
+	},
+	"push_notification_token": ""
+}
